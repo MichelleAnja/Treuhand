@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treuhand & Steuerberatung</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #ffffff;
+            color: #1a1a1a;
+        }
+
+        header {
+            background-color: #0a2a52;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: white;
+            font-size: 22px;
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px 60px;
+            background: linear-gradient(
+                to right,
+                rgba(10,42,82,0.85),
+                rgba(10,42,82,0.55)
+            ),
+            url("Bild_Startseite.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .hero-text {
+            max-width: 520px;
+        }
+
+        .hero-text h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .services {
+            padding: 80px 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
+        }
+
+        .service-box {
+            border: 1px solid #e5e5e5;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .service-box:hover {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            transform: translateY(-4px);
+        }
+
+        .service-box h3 {
+            color: #0a2a52;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #0a2a52;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Treuhand & Steuerberatung</h1>
+    <nav>
+        <a href="#">Steuererklärung</a>
+        <a href="#">Buchhaltung</a>
+        <a href="#">Gründung</a>
+        <a href="#">Über uns</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>Professionelle Steuerlösungen für Privatpersonen</h2>
+        <p>
+            Als Treuhänderin mit eidg. Fachausweis unterstütze ich Sie kompetent,
+            diskret und zuverlässig bei Steuererklärungen, Buchhaltung und Gründungen.
+        </p>
+    </div>
+</section>
+
+<section class="services">
+    <div class="service-box">
+        <h3>Steuererklärung</h3>
+        <p>Effiziente und korrekte Erstellung Ihrer privaten Steuererklärung.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>Buchhaltung</h3>
+        <p>Saubere Buchführung für Selbständigerwerbende und Kleinunternehmen.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>Gründung</h3>
+        <p>Begleitung von der Idee bis zur erfolgreichen Firmengründung.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>Über uns</h3>
+        <p>Vertrauen, Kompetenz und persönliche Beratung stehen im Mittelpunkt.</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Treuhand & Steuerberatung · Schweiz
+</footer>
+
+</body>
+</html>
