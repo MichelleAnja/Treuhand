@@ -66,7 +66,7 @@ body {
 
 .hero {
   position: relative;
-  min-height: 560px;
+  min-height: 580px;
   height: 62vh;
   max-height: 680px;
 
@@ -82,7 +82,7 @@ body {
 }
 
 .hero-company {
-  max-width: 560px;
+  max-width: 580px;
   position: relative;
   z-index: 2;
 }
