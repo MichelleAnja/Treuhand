@@ -77,6 +77,11 @@ body {
 };
 }
 
+.hero-company {
+  max-width: 550px;
+  z-index: 2;
+}
+
 .hero-copy {
   padding: clamp(70px, 8vw, 104px) clamp(32px, 6vw, 86px);
   display: flex;
