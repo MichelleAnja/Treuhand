@@ -66,7 +66,7 @@ body {
 
 .hero {
   position: relative;
-  min-height: 580px;
+  min-height: 620px;
   height: 62vh;
   max-height: 680px;
 
@@ -82,13 +82,13 @@ body {
 }
 
 .hero-company {
-  max-width: 580px;
+  max-width: 620px;
   position: relative;
   z-index: 2;
 }
 
 .hero-copy {
-  padding: clamp(70px, 8vw, 104px) clamp(32px, 6vw, 86px);
+  padding: clamp(80px, 8vw, 104px) clamp(32px, 6vw, 86px);
   display: flex;
   flex-direction: column;
   justify-content: center;
