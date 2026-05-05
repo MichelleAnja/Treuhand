@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bachev Treuhand | Privatkunden</title>
+  <style>
+    :root{--navy:#0d2443;--blue:#12345d;--text:#17263d;--muted:#667085;--line:#e8edf3;--bg:#f7f9fc;--white:#fff}
+    *{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--white)}
+    a{text-decoration:none;color:inherit}.container{max-width:1180px;margin:auto;padding:0 28px}
+    header{height:86px;border-bottom:1px solid var(--line);background:#fff;display:flex;align-items:center;position:sticky;top:0;z-index:10}
+    .nav{display:flex;align-items:center;justify-content:space-between;width:100%}.logo{display:flex;align-items:center;gap:13px;color:var(--navy)}
+    .mark{font-family:Georgia,serif;font-size:48px;line-height:1;font-weight:500;letter-spacing:-6px}.logo-text{font-family:Georgia,serif;font-size:26px;letter-spacing:2px;font-weight:bold}.logo-sub{font-size:11px;letter-spacing:8px;margin-top:2px}
+    nav{display:flex;gap:54px;font-size:15px;color:#17263d}nav a:hover{color:#315f94}
+    .hero{background:linear-gradient(90deg,#fff 0%,#fff 48%,#eef3f8 48%,#eef3f8 100%)}
+    .hero-grid{display:grid;grid-template-columns:1fr 1fr;min-height:520px;align-items:center}.hero-copy{padding:70px 50px 70px 0}.eyebrow{font-size:13px;letter-spacing:1.8px;text-transform:uppercase;color:#49627e;font-weight:700;margin-bottom:18px}
+    h1{font-family:Georgia,serif;font-size:56px;line-height:1.04;margin:0 0 24px;color:var(--navy);font-weight:500}p{line-height:1.65;color:#3e4a5d}.lead{max-width:520px;margin-bottom:32px}
+    .btn{display:inline-flex;align-items:center;gap:10px;background:var(--navy);color:white;padding:15px 28px;font-size:13px;font-weight:700;letter-spacing:.4px;text-transform:uppercase}.btn:hover{background:#18395f}
+    .hero-art{padding:46px 0 46px 46px}.hero-art img{width:100%;border-radius:2px;box-shadow:0 18px 42px rgba(13,36,67,.16);display:block}
+    .intro{padding:72px 0 38px;text-align:center}.intro h2,.services h2{font-family:Georgia,serif;color:var(--navy);font-size:40px;font-weight:500;margin:0 0 16px}.intro p{max-width:760px;margin:0 auto;color:var(--muted)}
+    .services{padding:24px 0 90px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.card{border:1px solid var(--line);background:#fff;padding:36px 32px 32px;min-height:315px;transition:.2s;position:relative;overflow:hidden}.card:hover{transform:translateY(-4px);box-shadow:0 18px 35px rgba(13,36,67,.08)}
+    .icon{width:62px;height:62px;margin-bottom:24px}.card h3{font-family:Georgia,serif;color:var(--navy);font-size:26px;font-weight:500;margin:0 0 14px}.card p{color:var(--muted);font-size:15px;margin:0 0 30px}.more{font-size:13px;text-transform:uppercase;font-weight:800;color:var(--navy);letter-spacing:.3px;position:absolute;bottom:30px}.more span{margin-left:8px}
+    .cta{background:var(--bg);padding:62px 0}.cta .box{display:flex;justify-content:space-between;gap:30px;align-items:center;background:#fff;border:1px solid var(--line);padding:36px 42px}.cta h2{font-family:Georgia,serif;color:var(--navy);font-size:34px;font-weight:500;margin:0}.cta p{margin:8px 0 0;color:var(--muted)}
+    footer{padding:34px 0;color:#7a8492;font-size:14px;border-top:1px solid var(--line)}
+    @media(max-width:850px){header{height:auto;padding:18px 0} .nav{align-items:flex-start;gap:18px}.logo-text{font-size:21px}.mark{font-size:42px}nav{gap:18px;flex-wrap:wrap;font-size:14px}.hero{background:#fff}.hero-grid,.cards{grid-template-columns:1fr}.hero-copy{padding:48px 0 20px}.hero-art{padding:20px 0 46px}h1{font-size:42px}.cta .box{display:block}.cta .btn{margin-top:22px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="index.html" aria-label="Zur Startseite">
+        <div class="mark">B</div><div><div class="logo-text">BACHEV</div><div class="logo-sub">TREUHAND</div></div>
+      </a>
+      <nav>
+        <a href="unternehmenskunden.html">Unternehmenskunden</a><a href="privatkunden.html">Privatkunden</a><a href="ueber-uns.html">Über uns</a><a href="kontakt.html">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">Privatkunden</div>
+          <h1>Kompetente Unterstützung für Ihre privaten Finanz- und Steuerfragen.</h1>
+          <p class="lead">Bachev Treuhand begleitet Privatpersonen zuverlässig bei Steuererklärung, Steuerberatung und Versicherungsfragen – verständlich, persönlich und lösungsorientiert.</p>
+          <a class="btn" href="#leistungen">Mehr erfahren →</a>
+        </div>
+        <div class="hero-art"><img src="privatkunden-bild.svg" alt="Illustration für Privatkunden Beratung"></div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="container"><h2>Unsere Leistungen für Privatkunden</h2><p>Ob jährliche Steuererklärung, individuelle Steueroptimierung oder Überblick über passende Versicherungen: Wir schaffen Klarheit und nehmen Ihnen administrative Arbeit ab.</p></div>
+    </section>
+
+    <section class="services" id="leistungen">
+      <div class="container cards">
+        <article class="card">
+          <svg class="icon" viewBox="0 0 64 64" fill="none" stroke="#0d2443" stroke-width="2.4"><path d="M12 54h40M18 54V22l14-9 14 9v32M25 54V38h14v16M24 28h4M36 28h4"/><circle cx="32" cy="19" r="2"/></svg>
+          <h3>Steuerberatung</h3><p>Individuelle Beratung zu steuerlichen Fragen, Optimierungsmöglichkeiten und vorausschauender Planung Ihrer privaten Finanzen.</p><a class="more" href="steuerberatung.html">Mehr erfahren <span>→</span></a>
+        </article>
+        <article class="card">
+          <svg class="icon" viewBox="0 0 64 64" fill="none" stroke="#0d2443" stroke-width="2.4"><path d="M18 8h22l8 8v40H18z"/><path d="M40 8v10h10M24 28h16M24 36h16M24 44h10"/><path d="m39 45 4 4 9-10"/></svg>
+          <h3>Erstellung Steuererklärung</h3><p>Sorgfältige Erstellung Ihrer Steuererklärung inklusive Prüfung der Unterlagen, Abzüge und fristgerechter Einreichung.</p><a class="more" href="steuererklaerung.html">Mehr erfahren <span>→</span></a>
+        </article>
+        <article class="card">
+          <svg class="icon" viewBox="0 0 64 64" fill="none" stroke="#0d2443" stroke-width="2.4"><path d="M32 8 50 16v12c0 13-7.5 22-18 28-10.5-6-18-15-18-28V16z"/><path d="M23 32h18M32 23v18"/></svg>
+          <h3>Versicherungsberatung</h3><p>Transparente Analyse Ihrer bestehenden Versicherungen und Beratung zu sinnvollen, bedarfsgerechten Absicherungen.</p><a class="more" href="versicherungsberatung.html">Mehr erfahren <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta"><div class="container"><div class="box"><div><h2>Bereit für eine persönliche Beratung?</h2><p>Nehmen Sie unverbindlich Kontakt auf – wir unterstützen Sie gerne.</p></div><a class="btn" href="kontakt.html">Kontakt aufnehmen →</a></div></div></section>
+  </main>
+  <footer><div class="container">© Bachev Treuhand</div></footer>
+</body>
+</html>
